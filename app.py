@@ -38,11 +38,9 @@ def fetch_and_clean_data(url):
 # Fetch data from URL here, and then clean it up.
     return None
 
-
 if 'date' not in st.session_state:
     st.session_state.date = datetime.datetime.now()
 
-#st.session_state.date = datetime.now()
 #show current datetime
 st.write("App launched: ", st.session_state.date)
 
